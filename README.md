@@ -1,27 +1,44 @@
 # ProjetoEncontrarCasas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+Este projeto foi criado para facilitar a busca por casas disponíveis para compra ou aluguel. O sistema permite que usuários filtrem e visualizem as propriedades, oferecendo uma experiência interativa.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Pesquisa e filtro de imóveis com base em localização, preço e tipo.
+- Exibição de detalhes dos imóveis, incluindo fotos, descrições e preços.
+- Interface amigável e responsiva para dispositivos móveis e desktops.
 
-## Code scaffolding
+## Requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js e npm instalados
+- Angular CLI versão 18.2.6 ou superior
 
-## Build
+## Instruções de Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Servidor de Desenvolvimento
 
-## Running unit tests
+Execute `ng serve` para iniciar o servidor de desenvolvimento. A aplicação estará acessível em `http://localhost:4200/`. A aplicação recarrega automaticamente ao modificar os arquivos de código-fonte.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Geração de Componentes
 
-## Running end-to-end tests
+Use `ng generate component component-name` para gerar um novo componente. Também é possível gerar diretivas, pipes, serviços e mais usando os seguintes comandos:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
 
-## Further help
+### Build
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Execute `ng build` para gerar os artefatos de build na pasta `dist/`.
+
+### Testes Unitários
+
+Execute `ng test` para rodar os testes unitários com o [Karma](https://karma-runner.github.io).
+
+### Testes End-to-End
+
+Execute `ng e2e` para rodar testes end-to-end com a plataforma de sua escolha. Antes, será necessário adicionar um pacote para implementar essa capacidade.
+
+## Ajuda Adicional
+
+Para mais informações sobre o Angular CLI, use `ng help` ou confira a [documentação oficial](https://angular.dev/tools/cli).
